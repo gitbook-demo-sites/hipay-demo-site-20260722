@@ -1,0 +1,67 @@
+{
+  "HOME": {
+    "space": "bia6xzPPeNDkNvVMbLlZ",
+    "change_request": "2KjDPW5RU3SlsgsHXuBY",
+    "inserted_pages": 3,
+    "live_pages": 3,
+    "top_level_pages": [
+      "HiPay Developer Documentation",
+      "Migration story",
+      "Demo checklist"
+    ]
+  },
+  "ONLINE": {
+    "space": "NgbUMQ3SLCpm1fOa0LBR",
+    "change_request": "0PeocZzP9YLcQEfxqNZC",
+    "inserted_pages": 7,
+    "live_pages": 7,
+    "top_level_pages": [
+      "Online Payments",
+      "Choose an integration path",
+      "Hosted Page quickstart",
+      "Hosted Fields quickstart",
+      "Payment methods",
+      "Webhooks and notifications",
+      "Transaction operations"
+    ]
+  },
+  "COMMERCE": {
+    "space": "DXPlTLH37dJoMvok3HAf",
+    "change_request": "NxItwU4g9HF7VfeEKPsL",
+    "inserted_pages": 5,
+    "live_pages": 5,
+    "top_level_pages": [
+      "Commerce Platforms",
+      "CMS module launch",
+      "Marketplace onboarding",
+      "Point of Sale",
+      "Mobile payments"
+    ]
+  },
+  "FUNDAMENTALS": {
+    "space": "77QPwl2jzuBosZDzPHML",
+    "change_request": "phLwcmdQXqGqH4g88y6q",
+    "inserted_pages": 5,
+    "live_pages": 5,
+    "top_level_pages": [
+      "Payment Fundamentals",
+      "Transaction lifecycle",
+      "Signature verification",
+      "Security and SCA",
+      "Error handling"
+    ]
+  },
+  "API": {
+    "space": "iLPCxDjmgR6F8AXe5kC9",
+    "change_request": "G8hG7uHVRfDeJtOHgvVm",
+    "inserted_pages": 5,
+    "live_pages": 5,
+    "top_level_pages": [
+      "API Reference",
+      "Gateway API",
+      "Hosted Page API",
+      "Marketplace API",
+      "Agentic interfaces"
+    ]
+  }
+}
