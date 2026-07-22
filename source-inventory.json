@@ -1,0 +1,636 @@
+{
+  "home": [],
+  "online-payments": [
+    [
+      "bancomat-pay.md",
+      "Bancomat Pay",
+      "https://developer.hipay.com/online-payments/bancomat-pay"
+    ],
+    [
+      "bizum.md",
+      "Bizum",
+      "https://developer.hipay.com/online-payments/bizum"
+    ],
+    [
+      "features/3ds.md",
+      "3DS",
+      "https://developer.hipay.com/online-payments/features/3ds"
+    ],
+    [
+      "features/analytics.md",
+      "Analytics",
+      "https://developer.hipay.com/online-payments/features/analytics"
+    ],
+    [
+      "features/how-to-benefit-from-the-safer-by-cb-program.md",
+      "How to Benefit from the Safe'R by CB Program?",
+      "https://developer.hipay.com/online-payments/features/how-to-benefit-from-the-safer-by-cb-program"
+    ],
+    [
+      "features/one-click.md",
+      "One-click",
+      "https://developer.hipay.com/online-payments/features/one-click"
+    ],
+    [
+      "features/psd2-sca.md",
+      "PSD2 & SCA",
+      "https://developer.hipay.com/online-payments/features/psd2-sca"
+    ],
+    [
+      "features/recurring-payments-card-on-file-and-network-tokens.md",
+      "Recurring Payments, Card-on-File, and Network Tokens",
+      "https://developer.hipay.com/online-payments/features/recurring-payments-card-on-file-and-network-tokens"
+    ],
+    [
+      "features/settlements.md",
+      "Settlements",
+      "https://developer.hipay.com/online-payments/features/settlements"
+    ],
+    [
+      "hosted-page/hosted-page-multi-theme.md",
+      "Hosted Page Multi Theme",
+      "https://developer.hipay.com/online-payments/hosted-page/hosted-page-multi-theme"
+    ],
+    [
+      "maintenance/capture.md",
+      "Capture",
+      "https://developer.hipay.com/online-payments/maintenance/capture"
+    ],
+    [
+      "maintenance/challenge.md",
+      "Challenge",
+      "https://developer.hipay.com/online-payments/maintenance/challenge"
+    ],
+    [
+      "maintenance/refund.md",
+      "Refund",
+      "https://developer.hipay.com/online-payments/maintenance/refund"
+    ],
+    [
+      "overview.md",
+      "Online Payments - Overview",
+      "https://developer.hipay.com/online-payments/overview"
+    ],
+    [
+      "payment-means/alma.md",
+      "Alma",
+      "https://developer.hipay.com/online-payments/payment-means/alma"
+    ],
+    [
+      "payment-means/apple-pay-app.md",
+      "Apple Pay - Mobile APP",
+      "https://developer.hipay.com/online-payments/payment-means/apple-pay-app"
+    ],
+    [
+      "payment-means/apple-pay-web.md",
+      "Apple Pay - Web",
+      "https://developer.hipay.com/online-payments/payment-means/apple-pay-web"
+    ],
+    [
+      "payment-means/bancontact.md",
+      "Bancontact",
+      "https://developer.hipay.com/online-payments/payment-means/bancontact"
+    ],
+    [
+      "payment-means/cheque-vacances-connect.md",
+      "Cheque-Vacances Connect",
+      "https://developer.hipay.com/online-payments/payment-means/cheque-vacances-connect"
+    ],
+    [
+      "payment-means/elementor-5403.md",
+      "MB Multibanco",
+      "https://developer.hipay.com/online-payments/payment-means/elementor-5403"
+    ],
+    [
+      "payment-means/ideal.md",
+      "iDEAL 2.0",
+      "https://developer.hipay.com/online-payments/payment-means/ideal"
+    ],
+    [
+      "payment-means/mb-way.md",
+      "MB Way",
+      "https://developer.hipay.com/online-payments/payment-means/mb-way"
+    ],
+    [
+      "payment-means/mb-way-pagamentos-autorizados.md",
+      "MB Way Pagamentos Autorizados",
+      "https://developer.hipay.com/online-payments/payment-means/mb-way-pagamentos-autorizados"
+    ],
+    [
+      "payment-means/mybank.md",
+      "MyBank",
+      "https://developer.hipay.com/online-payments/payment-means/mybank"
+    ],
+    [
+      "payment-means/payment-means.md",
+      "Payment Means",
+      "https://developer.hipay.com/online-payments/payment-means/payment-means"
+    ],
+    [
+      "payment-means/paypal.md",
+      "PayPal V2",
+      "https://developer.hipay.com/online-payments/payment-means/paypal"
+    ],
+    [
+      "payment-means/payshop.md",
+      "Payshop",
+      "https://developer.hipay.com/online-payments/payment-means/payshop"
+    ],
+    [
+      "payment-means/przelewy-24.md",
+      "Przelewy 24",
+      "https://developer.hipay.com/online-payments/payment-means/przelewy-24"
+    ],
+    [
+      "payment-means/sepa-direct-debit.md",
+      "SEPA Direct Debit",
+      "https://developer.hipay.com/online-payments/payment-means/sepa-direct-debit"
+    ],
+    [
+      "payment/api-only.md",
+      "Payment - API Order",
+      "https://developer.hipay.com/online-payments/payment/api-only"
+    ],
+    [
+      "payment/hosted-fields.md",
+      "Hosted Fields",
+      "https://developer.hipay.com/online-payments/payment/hosted-fields"
+    ],
+    [
+      "payment/hosted-page.md",
+      "Hosted Page Integration",
+      "https://developer.hipay.com/online-payments/payment/hosted-page"
+    ],
+    [
+      "payment/hosted-page-customization.md",
+      "Hosted Page Customization",
+      "https://developer.hipay.com/online-payments/payment/hosted-page-customization"
+    ],
+    [
+      "payment/hosted-payments.md",
+      "Hosted Payments",
+      "https://developer.hipay.com/online-payments/payment/hosted-payments"
+    ],
+    [
+      "payment/professional-integration.md",
+      "Professional Integration",
+      "https://developer.hipay.com/online-payments/payment/professional-integration"
+    ],
+    [
+      "sdk-reference/sdk-js.md",
+      "JS SDK",
+      "https://developer.hipay.com/online-payments/sdk-reference/sdk-js"
+    ],
+    [
+      "sdk-reference/sdk-nodejs.md",
+      "NodeJS SDK",
+      "https://developer.hipay.com/online-payments/sdk-reference/sdk-nodejs"
+    ],
+    [
+      "sdk-reference/sdk-php.md",
+      "PHP SDK",
+      "https://developer.hipay.com/online-payments/sdk-reference/sdk-php"
+    ]
+  ],
+  "commerce-platforms": [
+    [
+      "cms-modules/cms-modules-overview.md",
+      "CMS Modules - Overview",
+      "https://developer.hipay.com/cms-modules/cms-modules-overview"
+    ],
+    [
+      "cms-modules/cms-prerequisites.md",
+      "CMS Prerequisites",
+      "https://developer.hipay.com/cms-modules/cms-prerequisites"
+    ],
+    [
+      "cms-modules/magento/hyva.md",
+      "Hyva",
+      "https://developer.hipay.com/cms-modules/magento/hyva"
+    ],
+    [
+      "cms-modules/magento/magento-1-enterprise.md",
+      "Magento 1 Enterprise",
+      "https://developer.hipay.com/cms-modules/magento/magento-1-enterprise"
+    ],
+    [
+      "cms-modules/magento/magento-1-professional.md",
+      "Magento 1 Professional",
+      "https://developer.hipay.com/cms-modules/magento/magento-1-professional"
+    ],
+    [
+      "cms-modules/magento/magento-2-enterprise.md",
+      "Magento 2 Enterprise",
+      "https://developer.hipay.com/cms-modules/magento/magento-2-enterprise"
+    ],
+    [
+      "cms-modules/prestashop/prestashop-enterprise.md",
+      "PrestaShop Enterprise",
+      "https://developer.hipay.com/cms-modules/prestashop/prestashop-enterprise"
+    ],
+    [
+      "cms-modules/prestashop/prestashop-hipay-payments.md",
+      "Prestashop HiPay Payments",
+      "https://developer.hipay.com/cms-modules/prestashop/prestashop-hipay-payments"
+    ],
+    [
+      "cms-modules/salesforce/sfcc-configuration.md",
+      "SFCC Configuration",
+      "https://developer.hipay.com/cms-modules/salesforce/sfcc-configuration"
+    ],
+    [
+      "cms-modules/salesforce/sfcc-integration.md",
+      "SFCC Integration",
+      "https://developer.hipay.com/cms-modules/salesforce/sfcc-integration"
+    ],
+    [
+      "cms-modules/salesforce/sfcc-storefront.md",
+      "SFCC Storefront",
+      "https://developer.hipay.com/cms-modules/salesforce/sfcc-storefront"
+    ],
+    [
+      "cms-modules/shopify.md",
+      "Shopify",
+      "https://developer.hipay.com/cms-modules/shopify"
+    ],
+    [
+      "cms-modules/shopware-6.md",
+      "Shopware 6",
+      "https://developer.hipay.com/cms-modules/shopware-6"
+    ],
+    [
+      "cms-modules/sylius.md",
+      "Sylius",
+      "https://developer.hipay.com/cms-modules/sylius"
+    ],
+    [
+      "cms-modules/wizishop/wizishop-enterprise.md",
+      "WiziShop Enterprise",
+      "https://developer.hipay.com/cms-modules/wizishop/wizishop-enterprise"
+    ],
+    [
+      "cms-modules/wizishop/wizishop-professional.md",
+      "WiziShop Professional",
+      "https://developer.hipay.com/cms-modules/wizishop/wizishop-professional"
+    ],
+    [
+      "cms-modules/woocommerce/woocommerce-enterprise.md",
+      "WooCommerce Enterprise",
+      "https://developer.hipay.com/cms-modules/woocommerce/woocommerce-enterprise"
+    ],
+    [
+      "marketplace/api-integration/bank-information.md",
+      "Marketplace - Bank Information",
+      "https://developer.hipay.com/marketplace/api-integration/bank-information"
+    ],
+    [
+      "marketplace/api-integration/cash-out.md",
+      "Marketplace - Cash Out",
+      "https://developer.hipay.com/marketplace/api-integration/cash-out"
+    ],
+    [
+      "marketplace/api-integration/kyc-notifications.md",
+      "KYC - Notifications",
+      "https://developer.hipay.com/marketplace/api-integration/kyc-notifications"
+    ],
+    [
+      "marketplace/api-integration/kyc-request-status.md",
+      "KYC - Request Status",
+      "https://developer.hipay.com/marketplace/api-integration/kyc-request-status"
+    ],
+    [
+      "marketplace/api-integration/kyc-upload-documents.md",
+      "KYC - Upload Documents",
+      "https://developer.hipay.com/marketplace/api-integration/kyc-upload-documents"
+    ],
+    [
+      "marketplace/api-integration/vendors.md",
+      "Marketplace - Vendors",
+      "https://developer.hipay.com/marketplace/api-integration/vendors"
+    ],
+    [
+      "marketplace/izberg/configuration.md",
+      "Izberg - Configuration",
+      "https://developer.hipay.com/marketplace/izberg/configuration"
+    ],
+    [
+      "marketplace/izberg/izberg-fundamentals.md",
+      "Izberg - Fundamentals",
+      "https://developer.hipay.com/marketplace/izberg/izberg-fundamentals"
+    ],
+    [
+      "marketplace/marketplace-overview.md",
+      "Marketplace - Overview",
+      "https://developer.hipay.com/marketplace/marketplace-overview"
+    ],
+    [
+      "marketplace/mirakl/connector-saas-mirakl-prerequisite.md",
+      "Connector Saas - Mirakl Prerequisite",
+      "https://developer.hipay.com/marketplace/mirakl/connector-saas-mirakl-prerequisite"
+    ],
+    [
+      "marketplace/mirakl/daily-usage.md",
+      "Mirakl - Daily Usage",
+      "https://developer.hipay.com/marketplace/mirakl/daily-usage"
+    ],
+    [
+      "marketplace/mirakl/dashboard.md",
+      "Mirakl - Dashboard",
+      "https://developer.hipay.com/marketplace/mirakl/dashboard"
+    ],
+    [
+      "marketplace/mirakl/installation.md",
+      "Mirakl - Installation",
+      "https://developer.hipay.com/marketplace/mirakl/installation"
+    ],
+    [
+      "marketplace/mirakl/prerequisites.md",
+      "Mirakl - Prerequisites",
+      "https://developer.hipay.com/marketplace/mirakl/prerequisites"
+    ],
+    [
+      "marketplace/mirakl/update.md",
+      "Mirakl - Update",
+      "https://developer.hipay.com/marketplace/mirakl/update"
+    ],
+    [
+      "mobile-payments/android/android-advanced-integration.md",
+      "Android - Advanced Integration",
+      "https://developer.hipay.com/mobile-payments/android/android-advanced-integration"
+    ],
+    [
+      "mobile-payments/android/android-fast-integration.md",
+      "Android - Fast Integration",
+      "https://developer.hipay.com/mobile-payments/android/android-fast-integration"
+    ],
+    [
+      "mobile-payments/android/android-fundamentals.md",
+      "Android - Fundamentals",
+      "https://developer.hipay.com/mobile-payments/android/android-fundamentals"
+    ],
+    [
+      "mobile-payments/android/android-sdk-configuration.md",
+      "Android - SDK Configuration",
+      "https://developer.hipay.com/mobile-payments/android/android-sdk-configuration"
+    ],
+    [
+      "mobile-payments/bancontact-wip.md",
+      "Bancontact WIP",
+      "https://developer.hipay.com/mobile-payments/bancontact-wip"
+    ],
+    [
+      "mobile-payments/ios/ios-advanced-integration.md",
+      "iOS - Advanced Integration",
+      "https://developer.hipay.com/mobile-payments/ios/ios-advanced-integration"
+    ],
+    [
+      "mobile-payments/ios/ios-fast-integration.md",
+      "iOS - Fast Integration",
+      "https://developer.hipay.com/mobile-payments/ios/ios-fast-integration"
+    ],
+    [
+      "mobile-payments/ios/ios-fundamentals.md",
+      "iOS - Fundamentals",
+      "https://developer.hipay.com/mobile-payments/ios/ios-fundamentals"
+    ],
+    [
+      "mobile-payments/ios/ios-sdk-configuration.md",
+      "iOS - SDK Configuration",
+      "https://developer.hipay.com/mobile-payments/ios/ios-sdk-configuration"
+    ],
+    [
+      "point-of-sale/online-to-instore/cegid-y2.md",
+      "Cegid Y2",
+      "https://developer.hipay.com/point-of-sale/online-to-instore/cegid-y2"
+    ],
+    [
+      "point-of-sale/online-to-instore/cloud-api-for-nepting.md",
+      "Introduction to the Cloud API for Nepting",
+      "https://developer.hipay.com/point-of-sale/online-to-instore/cloud-api-for-nepting"
+    ],
+    [
+      "point-of-sale/online-to-instore/hipay-android-app.md",
+      "HiPay Android app",
+      "https://developer.hipay.com/point-of-sale/online-to-instore/hipay-android-app"
+    ],
+    [
+      "point-of-sale/online-to-instore/local-api-for-nepting.md",
+      "Introduction to the Local API for Nepting",
+      "https://developer.hipay.com/point-of-sale/online-to-instore/local-api-for-nepting"
+    ],
+    [
+      "point-of-sale/online-to-instore/online-to-instore.md",
+      "Online to inStore (Nepting)",
+      "https://developer.hipay.com/point-of-sale/online-to-instore/online-to-instore"
+    ],
+    [
+      "point-of-sale/point-of-sale.md",
+      "Point of Sale (POS)",
+      "https://developer.hipay.com/point-of-sale/point-of-sale"
+    ],
+    [
+      "point-of-sale/pos-payment-methods.md",
+      "POS - Supported payment methods",
+      "https://developer.hipay.com/point-of-sale/pos-payment-methods"
+    ],
+    [
+      "point-of-sale/smart-terminal/cloud-api-for-standalone-payment-terminals.md",
+      "Introduction to the Cloud API for standalone payment terminals",
+      "https://developer.hipay.com/point-of-sale/smart-terminal/cloud-api-for-standalone-payment-terminals"
+    ],
+    [
+      "point-of-sale/smart-terminal/desktop-connector.md",
+      "Desktop - ECR Connector",
+      "https://developer.hipay.com/point-of-sale/smart-terminal/desktop-connector"
+    ],
+    [
+      "point-of-sale/smart-terminal/omnichannel-sdk.md",
+      "Tablet - Omnichannel SDK",
+      "https://developer.hipay.com/point-of-sale/smart-terminal/omnichannel-sdk"
+    ],
+    [
+      "point-of-sale/smart-terminal/pos-passive-integration.md",
+      "POS Passive Integration",
+      "https://developer.hipay.com/point-of-sale/smart-terminal/pos-passive-integration"
+    ],
+    [
+      "point-of-sale/smart-terminal/smart-terminal.md",
+      "Smart Terminal",
+      "https://developer.hipay.com/point-of-sale/smart-terminal/smart-terminal"
+    ],
+    [
+      "point-of-sale/smart-terminal/tablet-connector.md",
+      "Tablet Connector",
+      "https://developer.hipay.com/point-of-sale/smart-terminal/tablet-connector"
+    ],
+    [
+      "point-of-sale/unattended-terminals.md",
+      "Kiosk - Unattended Terminal Connector",
+      "https://developer.hipay.com/point-of-sale/unattended-terminals"
+    ],
+    [
+      "uncategorized/bancontact-migration-hipay.md",
+      "Bancontact Integration Migration - HiPay",
+      "https://developer.hipay.com/uncategorized/bancontact-migration-hipay"
+    ],
+    [
+      "uncategorized/prestashop-professional.md",
+      "PrestaShop Professional",
+      "https://developer.hipay.com/uncategorized/prestashop-professional"
+    ]
+  ],
+  "payment-fundamentals": [
+    [
+      "essentials/address-verification-service.md",
+      "Address Verification Service",
+      "https://developer.hipay.com/payment-fundamentals/essentials/address-verification-service"
+    ],
+    [
+      "essentials/card-verification-code.md",
+      "Card Verification Code",
+      "https://developer.hipay.com/payment-fundamentals/essentials/card-verification-code"
+    ],
+    [
+      "essentials/eci.md",
+      "Electronic Commerce Indicator",
+      "https://developer.hipay.com/payment-fundamentals/essentials/eci"
+    ],
+    [
+      "essentials/error-messages.md",
+      "Error messages",
+      "https://developer.hipay.com/payment-fundamentals/essentials/error-messages"
+    ],
+    [
+      "essentials/transaction-lifecycle.md",
+      "Transaction lifecycle",
+      "https://developer.hipay.com/payment-fundamentals/essentials/transaction-lifecycle"
+    ],
+    [
+      "essentials/transaction-status.md",
+      "Transaction status",
+      "https://developer.hipay.com/payment-fundamentals/essentials/transaction-status"
+    ],
+    [
+      "requirements/device-fingerprint-integration.md",
+      "Device Fingerprint Integration",
+      "https://developer.hipay.com/payment-fundamentals/requirements/device-fingerprint-integration"
+    ],
+    [
+      "requirements/notifications/fraud-reported-by-acquirer-notifications.md",
+      "Fraud Reported By Acquirer",
+      "https://developer.hipay.com/payment-fundamentals/requirements/notifications/fraud-reported-by-acquirer-notifications"
+    ],
+    [
+      "requirements/notifications/notifications.md",
+      "Server-to-server notifications",
+      "https://developer.hipay.com/payment-fundamentals/requirements/notifications/notifications"
+    ],
+    [
+      "requirements/redirect-pages.md",
+      "Redirect Pages",
+      "https://developer.hipay.com/payment-fundamentals/requirements/redirect-pages"
+    ],
+    [
+      "requirements/security.md",
+      "Security Considerations",
+      "https://developer.hipay.com/payment-fundamentals/requirements/security"
+    ],
+    [
+      "requirements/signature-verification.md",
+      "Signature Verification",
+      "https://developer.hipay.com/payment-fundamentals/requirements/signature-verification"
+    ]
+  ],
+  "api-reference": [
+    [
+      "agentic-interfaces/agentic-interfaces-overview.md",
+      "Agentic Interfaces - Overview",
+      "https://developer.hipay.com/agentic-interfaces/agentic-interfaces-overview"
+    ],
+    [
+      "agentic-interfaces/hipay-mcp-server.md",
+      "HiPay MCP Server",
+      "https://developer.hipay.com/agentic-interfaces/hipay-mcp-server"
+    ],
+    [
+      "api-explorer/api-gateway.md",
+      "API Gateway V3",
+      "https://developer.hipay.com/api-explorer/api-gateway"
+    ],
+    [
+      "api-explorer/api-marketplace.md",
+      "HiPay Marketplace API",
+      "https://developer.hipay.com/api-explorer/api-marketplace"
+    ],
+    [
+      "api-explorer/api-online-payments.md",
+      "HiPay Enterprise Gateway API V1",
+      "https://developer.hipay.com/api-explorer/api-online-payments"
+    ],
+    [
+      "api-explorer/api-point-of-sale.md",
+      "HiPay Omnichannel (Enterprise Gateway API)",
+      "https://developer.hipay.com/api-explorer/api-point-of-sale"
+    ],
+    [
+      "api-explorer/api-settlements.md",
+      "HiPay Enterprise Finance API",
+      "https://developer.hipay.com/api-explorer/api-settlements"
+    ],
+    [
+      "api-explorer/applepay-web-api.md",
+      "ApplePay Web API",
+      "https://developer.hipay.com/api-explorer/applepay-web-api"
+    ],
+    [
+      "api-explorer/cloud-api-for-nepting-api.md",
+      "Cloud API for Nepting - API",
+      "https://developer.hipay.com/api-explorer/cloud-api-for-nepting-api"
+    ],
+    [
+      "api-explorer/cloud-api-for-standalone-payment-terminals-api.md",
+      "Cloud API for standalone payment terminals - API",
+      "https://developer.hipay.com/api-explorer/cloud-api-for-standalone-payment-terminals-api"
+    ],
+    [
+      "api-explorer/hpayment-api.md",
+      "Hpayment API",
+      "https://developer.hipay.com/api-explorer/hpayment-api"
+    ],
+    [
+      "api-explorer/local-api-for-nepting-api.md",
+      "Local API for Nepting - API",
+      "https://developer.hipay.com/api-explorer/local-api-for-nepting-api"
+    ],
+    [
+      "api-explorer/pos-api-swagger.md",
+      "POS API",
+      "https://developer.hipay.com/api-explorer/pos-api-swagger"
+    ],
+    [
+      "api-explorer/result.md",
+      "Congratulations on your test!",
+      "https://developer.hipay.com/api-explorer/result"
+    ],
+    [
+      "api-explorer/tablet-connector-for-android.md",
+      "Tablet Connector for Android",
+      "https://developer.hipay.com/api-explorer/tablet-connector-for-android"
+    ],
+    [
+      "api-explorer/tablet-connector-for-ios.md",
+      "Tablet Connector for iOS",
+      "https://developer.hipay.com/api-explorer/tablet-connector-for-ios"
+    ],
+    [
+      "api-explorer/terminal-api.md",
+      "Terminal API",
+      "https://developer.hipay.com/api-explorer/terminal-api"
+    ],
+    [
+      "api-explorer/terminal-api-for-softpos-api.md",
+      "Terminal API for SoftPOS - API",
+      "https://developer.hipay.com/api-explorer/terminal-api-for-softpos-api"
+    ]
+  ]
+}
