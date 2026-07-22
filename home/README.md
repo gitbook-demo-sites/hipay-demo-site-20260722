@@ -51,10 +51,10 @@ flowchart TD
 ## Choose your path
 
 <table data-view="cards"><thead><tr><th width="48"></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
-<tr><td><i class="fa-credit-card"></i></td><td><strong>Integrate online payments</strong></td><td>Hosted Page, Hosted Fields, API-only, SDKs, payment methods, and maintenance.</td><td><a href="https://app.gitbook.com/s/XSPACE_ONLINE/">Integrate online payments</a></td></tr>
-<tr><td><i class="fa-store"></i></td><td><strong>Launch commerce channels</strong></td><td>CMS modules, marketplace onboarding, mobile payments, POS, and online-to-instore flows.</td><td><a href="https://app.gitbook.com/s/XSPACE_COMMERCE/">Launch commerce channels</a></td></tr>
-<tr><td><i class="fa-shield-halved"></i></td><td><strong>Understand requirements</strong></td><td>Security, notifications, signature verification, transaction lifecycle, statuses, and errors.</td><td><a href="https://app.gitbook.com/s/XSPACE_FUNDAMENTALS/">Understand requirements</a></td></tr>
-<tr><td><i class="fa-code"></i></td><td><strong>Use the API reference</strong></td><td>Generated OpenAPI pages for gateway, hosted page, marketplace, settlements, and terminal APIs.</td><td><a href="https://app.gitbook.com/s/XSPACE_API/">Use the API reference</a></td></tr>
+<tr><td><i class="fa-credit-card"></i></td><td><strong>Integrate online payments</strong></td><td>Hosted Page, Hosted Fields, API-only, SDKs, payment methods, and maintenance.</td><td><a href="https://app.gitbook.com/s/NgbUMQ3SLCpm1fOa0LBR/">Integrate online payments</a></td></tr>
+<tr><td><i class="fa-store"></i></td><td><strong>Launch commerce channels</strong></td><td>CMS modules, marketplace onboarding, mobile payments, POS, and online-to-instore flows.</td><td><a href="https://app.gitbook.com/s/DXPlTLH37dJoMvok3HAf/">Launch commerce channels</a></td></tr>
+<tr><td><i class="fa-shield-halved"></i></td><td><strong>Understand requirements</strong></td><td>Security, notifications, signature verification, transaction lifecycle, statuses, and errors.</td><td><a href="https://app.gitbook.com/s/77QPwl2jzuBosZDzPHML/">Understand requirements</a></td></tr>
+<tr><td><i class="fa-code"></i></td><td><strong>Use the API reference</strong></td><td>Generated OpenAPI pages for gateway, hosted page, marketplace, settlements, and terminal APIs.</td><td><a href="https://app.gitbook.com/s/iLPCxDjmgR6F8AXe5kC9/">Use the API reference</a></td></tr>
 </tbody></table>
 
 ## Audience segmentation demo

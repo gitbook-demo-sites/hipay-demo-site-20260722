@@ -1,0 +1,289 @@
+{
+  "org": "qzcO5fqUkPmCrFmRQDUW",
+  "org_title": "HiPay",
+  "site": "site_gPVnW",
+  "site_object": {
+    "object": "site",
+    "id": "site_gPVnW",
+    "type": "ultimate",
+    "appliedType": "ultimate",
+    "title": "HiPay Developer Documentation Hub",
+    "icon": {
+      "icon": {
+        "dark": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256",
+        "light": "https://www.google.com/s2/favicons?domain=gitbook.io&sz=256"
+      }
+    },
+    "basename": "hipay-developer-documentation-hub",
+    "visibility": "share-link",
+    "defaultLevel": null,
+    "permissions": {
+      "view": false,
+      "access": false,
+      "admin": false,
+      "installIntegration": false,
+      "viewAdaptiveSchema": false,
+      "editAdaptiveSchema": false
+    },
+    "published": false,
+    "createdAt": "2026-07-22T15:39:39.000Z",
+    "siteSpaces": 0,
+    "features": [
+      {
+        "id": "sites-share-links",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-ai-assistant",
+        "plan": "ultimate",
+        "frozen": false
+      },
+      {
+        "id": "sites-pdf-export",
+        "plan": "premium",
+        "frozen": false
+      },
+      {
+        "id": "sites-page-feedback",
+        "plan": "premium",
+        "frozen": false
+      }
+    ],
+    "urls": {
+      "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/sites/site_gPVnW",
+      "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/sites/site_gPVnW",
+      "preview": "https://sites.gitbook.com/preview/site_gPVnW/"
+    }
+  },
+  "spaces": {
+    "HOME": "bia6xzPPeNDkNvVMbLlZ",
+    "ONLINE": "NgbUMQ3SLCpm1fOa0LBR",
+    "COMMERCE": "DXPlTLH37dJoMvok3HAf",
+    "FUNDAMENTALS": "77QPwl2jzuBosZDzPHML",
+    "API": "iLPCxDjmgR6F8AXe5kC9"
+  },
+  "sections": {
+    "HOME": "sitesc_6UNXL",
+    "ONLINE": "sitesc_goy7z",
+    "COMMERCE": "sitesc_1njED",
+    "FUNDAMENTALS": "sitesc_Dd59H",
+    "API": "sitesc_pDafi"
+  },
+  "site_spaces": {
+    "HOME": "sitesp_svj6y",
+    "ONLINE": "sitesp_4Ybcv",
+    "COMMERCE": "sitesp_Sl4YN",
+    "FUNDAMENTALS": "sitesp_gfd7X",
+    "API": "sitesp_zU8JJ"
+  },
+  "openapi": {
+    "hipay-api-gateway-v3": {
+      "created": true,
+      "label": "API Gateway v3",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_ReA6U",
+        "createdAt": "2026-07-22T15:39:33.000Z",
+        "updatedAt": "2026-07-22T15:39:33.000Z",
+        "slug": "hipay-api-gateway-v3",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/master/enterprise/api-gateway.yml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-api-gateway-v3",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-api-gateway-v3"
+        }
+      }
+    },
+    "hipay-online-payments-v1": {
+      "created": true,
+      "label": "Online Payments API Gateway v1",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_NhpBy",
+        "createdAt": "2026-07-22T15:39:33.000Z",
+        "updatedAt": "2026-07-22T15:39:33.000Z",
+        "slug": "hipay-online-payments-v1",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/master/enterprise/gateway.yaml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-online-payments-v1",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-online-payments-v1"
+        }
+      }
+    },
+    "hipay-hosted-page-v2": {
+      "created": true,
+      "label": "Hosted Page v2",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_hNxh5",
+        "createdAt": "2026-07-22T15:39:34.000Z",
+        "updatedAt": "2026-07-22T15:39:34.000Z",
+        "slug": "hipay-hosted-page-v2",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/master/enterprise/hpayment.yaml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-hosted-page-v2",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-hosted-page-v2"
+        }
+      }
+    },
+    "hipay-apple-pay-web": {
+      "created": true,
+      "label": "Apple Pay Web API",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_BlpyN",
+        "createdAt": "2026-07-22T15:39:35.000Z",
+        "updatedAt": "2026-07-22T15:39:35.000Z",
+        "slug": "hipay-apple-pay-web",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/refs/heads/master/enterprise/applepay-web.yaml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-apple-pay-web",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-apple-pay-web"
+        }
+      }
+    },
+    "hipay-settlements": {
+      "created": true,
+      "label": "Settlements API",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_JS24Z",
+        "createdAt": "2026-07-22T15:39:35.000Z",
+        "updatedAt": "2026-07-22T15:39:35.000Z",
+        "slug": "hipay-settlements",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/master/enterprise/settlement.yaml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-settlements",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-settlements"
+        }
+      }
+    },
+    "hipay-marketplace": {
+      "created": true,
+      "label": "Marketplace API",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_W8MXw",
+        "createdAt": "2026-07-22T15:39:36.000Z",
+        "updatedAt": "2026-07-22T15:39:36.000Z",
+        "slug": "hipay-marketplace",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/master/marketplace/marketplace.yaml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-marketplace",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-marketplace"
+        }
+      }
+    },
+    "hipay-terminal-api": {
+      "created": true,
+      "label": "Terminal API",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_VA42S",
+        "createdAt": "2026-07-22T15:39:36.000Z",
+        "updatedAt": "2026-07-22T15:39:36.000Z",
+        "slug": "hipay-terminal-api",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/refs/heads/master/omnichannel/openapi%20-%20Terminal%20API.yaml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-terminal-api",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-terminal-api"
+        }
+      }
+    },
+    "hipay-nepting-cloud-api": {
+      "created": true,
+      "label": "Cloud API for Nepting",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_xpeoq",
+        "createdAt": "2026-07-22T15:39:37.000Z",
+        "updatedAt": "2026-07-22T15:39:37.000Z",
+        "slug": "hipay-nepting-cloud-api",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/master/omnichannel/openapi%20-%20Nepting.yaml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-nepting-cloud-api",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-nepting-cloud-api"
+        }
+      }
+    },
+    "hipay-standalone-terminal-cloud-api": {
+      "created": true,
+      "label": "Cloud API for Standalone Payment Terminals",
+      "spec": {
+        "object": "openapi-spec",
+        "id": "oas_5y6Gv",
+        "createdAt": "2026-07-22T15:39:37.000Z",
+        "updatedAt": "2026-07-22T15:39:37.000Z",
+        "slug": "hipay-standalone-terminal-cloud-api",
+        "sourceURL": "https://raw.githubusercontent.com/hipay/openapi-hipay/master/omnichannel/openapi%20-%20ConcertV3.yaml",
+        "processingState": "pending",
+        "visibility": "public",
+        "lastProcessedErrorCount": 0,
+        "permissions": {
+          "view": true,
+          "edit": true
+        },
+        "urls": {
+          "app": "https://app.gitbook.com/o/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-standalone-terminal-cloud-api",
+          "location": "/orgs/qzcO5fqUkPmCrFmRQDUW/openapi/hipay-standalone-terminal-cloud-api"
+        }
+      }
+    }
+  }
+}
