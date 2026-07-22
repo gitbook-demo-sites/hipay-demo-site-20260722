@@ -1,0 +1,27 @@
+{
+  "HOME": {
+    "status": 204,
+    "space": "bia6xzPPeNDkNvVMbLlZ",
+    "folder": "home"
+  },
+  "ONLINE": {
+    "status": 204,
+    "space": "NgbUMQ3SLCpm1fOa0LBR",
+    "folder": "online-payments"
+  },
+  "COMMERCE": {
+    "status": 204,
+    "space": "DXPlTLH37dJoMvok3HAf",
+    "folder": "commerce-platforms"
+  },
+  "FUNDAMENTALS": {
+    "status": 204,
+    "space": "77QPwl2jzuBosZDzPHML",
+    "folder": "payment-fundamentals"
+  },
+  "API": {
+    "status": 204,
+    "space": "iLPCxDjmgR6F8AXe5kC9",
+    "folder": "api-reference"
+  }
+}
