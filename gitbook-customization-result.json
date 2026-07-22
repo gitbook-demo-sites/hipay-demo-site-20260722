@@ -1,0 +1,221 @@
+{
+  "updatedAt": "2026-07-22T15:40:40.000Z",
+  "title": "HiPay Developer Documentation Hub",
+  "localizedTitle": {},
+  "internationalization": {
+    "locale": "en"
+  },
+  "styling": {
+    "theme": "clean",
+    "primaryColor": {
+      "dark": "#7C5CFF",
+      "light": "#2C0A64"
+    },
+    "infoColor": {
+      "dark": "#7C9DFF",
+      "light": "#2663FF"
+    },
+    "successColor": {
+      "dark": "#19D38A",
+      "light": "#00A86B"
+    },
+    "warningColor": {
+      "dark": "#FBBF24",
+      "light": "#F59E0B"
+    },
+    "dangerColor": {
+      "dark": "#F97066",
+      "light": "#D92D20"
+    },
+    "tint": {
+      "color": {
+        "dark": "#140A2E",
+        "light": "#F7F5FF"
+      }
+    },
+    "corners": "straight",
+    "depth": "flat",
+    "links": "accent",
+    "font": "Inter",
+    "monospaceFont": "IBMPlexMono",
+    "icons": "regular",
+    "background": "plain",
+    "sidebar": {
+      "background": "filled",
+      "list": "line"
+    },
+    "codeTheme": {
+      "default": {
+        "light": "default-light",
+        "dark": "default-dark"
+      },
+      "openapi": {
+        "light": "default-light",
+        "dark": "default-dark"
+      }
+    },
+    "search": "prominent"
+  },
+  "favicon": {
+    "icon": {
+      "light": "https://hipay.com/favicon.svg",
+      "dark": "https://hipay.com/favicon.svg"
+    }
+  },
+  "header": {
+    "preset": "default",
+    "logo": {
+      "light": "https://developer.hipay.com/wp-content/uploads/hipay_logo.svg",
+      "dark": "https://developer.hipay.com/wp-content/uploads/hipay_logo.svg"
+    },
+    "links": [
+      {
+        "to": {
+          "url": "https://hipay.com/en/",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "link",
+        "title": "HiPay",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "url": "https://developer.hipay.com/",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "link",
+        "title": "Current docs",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "kind": "space",
+          "space": "iLPCxDjmgR6F8AXe5kC9"
+        },
+        "links": [],
+        "style": "button-secondary",
+        "title": "API reference",
+        "localizedTitle": {}
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "light": "https://developer.hipay.com/wp-content/uploads/hipay_logo.svg",
+      "dark": "https://developer.hipay.com/wp-content/uploads/hipay_logo.svg"
+    },
+    "groups": [
+      {
+        "links": [
+          {
+            "to": {
+              "kind": "space",
+              "space": "NgbUMQ3SLCpm1fOa0LBR"
+            },
+            "title": "Online payments",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "DXPlTLH37dJoMvok3HAf"
+            },
+            "title": "Commerce platforms",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "iLPCxDjmgR6F8AXe5kC9"
+            },
+            "title": "API reference",
+            "localizedTitle": {}
+          }
+        ],
+        "title": "Demo sections",
+        "localizedTitle": {}
+      },
+      {
+        "links": [
+          {
+            "to": {
+              "url": "https://github.com/gitbook-demo-sites/hipay-demo-site-20260722",
+              "kind": "url"
+            },
+            "title": "Source repo",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://hipay.com/en/",
+              "kind": "url"
+            },
+            "title": "HiPay website",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://developer.hipay.com/",
+              "kind": "url"
+            },
+            "title": "Current developer portal",
+            "localizedTitle": {}
+          }
+        ],
+        "title": "Sources",
+        "localizedTitle": {}
+      }
+    ],
+    "copyright": "HiPay Developer Documentation Hub demo - built for review in GitBook."
+  },
+  "themes": {
+    "default": "light",
+    "toggeable": true
+  },
+  "trademark": {
+    "enabled": true
+  },
+  "feedback": {
+    "enabled": true
+  },
+  "ai": {
+    "mode": "assistant",
+    "suggestions": [
+      "Which integration path should a merchant choose?",
+      "How do I verify webhook signatures?",
+      "Where are the OpenAPI docs for API Gateway v3?",
+      "Which CMS modules does HiPay support?",
+      "How do refunds and captures work?"
+    ]
+  },
+  "advancedCustomization": {
+    "enabled": true
+  },
+  "pageActions": {
+    "items": [
+      "assistant",
+      "markdown",
+      "external-ai",
+      "mcp",
+      "pdf"
+    ]
+  },
+  "pagination": {
+    "enabled": true
+  },
+  "privacyPolicy": {
+    "url": "https://hipay.com/en/privacy-and-terms/"
+  },
+  "socialPreview": {
+    "url": "https://ik.imagekit.io/hipay/homepage_hero_a6ce98e81f_0Grsw-VSV.png?tr=w-1200,h-630"
+  },
+  "socialAccounts": [],
+  "externalLinks": {
+    "target": "self"
+  },
+  "insights": {
+    "trackingCookie": true
+  }
+}
