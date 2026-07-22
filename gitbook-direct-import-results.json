@@ -1,0 +1,42 @@
+{
+  "HOME": {
+    "space": "bia6xzPPeNDkNvVMbLlZ",
+    "change_request": "pmACy7Q5YoYypeFArp6B",
+    "groups": 1,
+    "children": 1,
+    "batches": 1,
+    "live_pages": 3
+  },
+  "ONLINE": {
+    "space": "NgbUMQ3SLCpm1fOa0LBR",
+    "change_request": "EQTZva8ZekI6GStO01m3",
+    "groups": 9,
+    "children": 38,
+    "batches": 2,
+    "live_pages": 48
+  },
+  "COMMERCE": {
+    "space": "DXPlTLH37dJoMvok3HAf",
+    "change_request": "GykwpwHbx4DZDUgu8lDn",
+    "groups": 5,
+    "children": 57,
+    "batches": 3,
+    "live_pages": 63
+  },
+  "FUNDAMENTALS": {
+    "space": "77QPwl2jzuBosZDzPHML",
+    "change_request": "bDZNPRXV2VB4Vzc27cRF",
+    "groups": 2,
+    "children": 12,
+    "batches": 1,
+    "live_pages": 15
+  },
+  "API": {
+    "space": "iLPCxDjmgR6F8AXe5kC9",
+    "change_request": "qp4CtAGNX535ljEWAlIk",
+    "groups": 3,
+    "children": 19,
+    "batches": 1,
+    "live_pages": 23
+  }
+}
