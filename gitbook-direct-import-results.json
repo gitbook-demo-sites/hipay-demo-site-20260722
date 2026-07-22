@@ -1,7 +1,8 @@
 {
   "HOME": {
     "space": "bia6xzPPeNDkNvVMbLlZ",
-    "change_request": "pmACy7Q5YoYypeFArp6B",
+    "change_request": "4CH2vJtZY0CBP4pGusrM",
+    "deleted_pages": 2,
     "groups": 1,
     "children": 1,
     "batches": 1,
@@ -9,7 +10,8 @@
   },
   "ONLINE": {
     "space": "NgbUMQ3SLCpm1fOa0LBR",
-    "change_request": "EQTZva8ZekI6GStO01m3",
+    "change_request": "d3IiCku7pEloigxIMfqx",
+    "deleted_pages": 10,
     "groups": 9,
     "children": 38,
     "batches": 2,
@@ -17,7 +19,8 @@
   },
   "COMMERCE": {
     "space": "DXPlTLH37dJoMvok3HAf",
-    "change_request": "GykwpwHbx4DZDUgu8lDn",
+    "change_request": "4yL3GxXoWDKSVx02psg5",
+    "deleted_pages": 6,
     "groups": 5,
     "children": 57,
     "batches": 3,
@@ -25,7 +28,8 @@
   },
   "FUNDAMENTALS": {
     "space": "77QPwl2jzuBosZDzPHML",
-    "change_request": "bDZNPRXV2VB4Vzc27cRF",
+    "change_request": "ek0UYFdDSnIFFcp5LhPX",
+    "deleted_pages": 3,
     "groups": 2,
     "children": 12,
     "batches": 1,
@@ -33,7 +37,8 @@
   },
   "API": {
     "space": "iLPCxDjmgR6F8AXe5kC9",
-    "change_request": "qp4CtAGNX535ljEWAlIk",
+    "change_request": "WSr8uVbVurQGQk2IIKvh",
+    "deleted_pages": 4,
     "groups": 3,
     "children": 19,
     "batches": 1,

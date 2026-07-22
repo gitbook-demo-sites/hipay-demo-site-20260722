@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T15:40:40.000Z",
+  "updatedAt": "2026-07-22T15:57:19.000Z",
   "title": "HiPay Developer Documentation Hub",
   "localizedTitle": {},
   "internationalization": {
@@ -65,7 +65,7 @@
   "header": {
     "preset": "default",
     "logo": {
-      "light": "https://developer.hipay.com/wp-content/uploads/hipay_logo.svg",
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/hipay-demo-site-20260722/main/home/.gitbook/assets/hipay-logo-purple.svg",
       "dark": "https://developer.hipay.com/wp-content/uploads/hipay_logo.svg"
     },
     "links": [
@@ -103,7 +103,7 @@
   },
   "footer": {
     "logo": {
-      "light": "https://developer.hipay.com/wp-content/uploads/hipay_logo.svg",
+      "light": "https://raw.githubusercontent.com/gitbook-demo-sites/hipay-demo-site-20260722/main/home/.gitbook/assets/hipay-logo-purple.svg",
       "dark": "https://developer.hipay.com/wp-content/uploads/hipay_logo.svg"
     },
     "groups": [

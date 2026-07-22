@@ -1,0 +1,7 @@
+{
+  "customization_status": 200,
+  "publish_status": 400,
+  "publish": {
+    "note": "Site is already published"
+  }
+}

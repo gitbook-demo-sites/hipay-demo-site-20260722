@@ -187,7 +187,11 @@ def main() -> None:
         results[space["key"]] = import_space(space, created)
         print(space["key"], results[space["key"]])
     (ROOT / "gitbook-direct-import-results.json").write_text(json.dumps(results, indent=2) + "\n", encoding="utf-8")
-    api("POST", f"/orgs/{created['org']}/sites/{created['site']}/publish")
+    try:
+        api("POST", f"/orgs/{created['org']}/sites/{created['site']}/publish")
+    except RuntimeError as exc:
+        if "Site is already published" not in str(exc):
+            raise
 
 
 if __name__ == "__main__":
