@@ -43,8 +43,11 @@ def chunked(items: list[dict], size: int = 25):
 def markdown_title(markdown: str, fallback: str) -> str:
     match = re.search(r"^#\s+(.+)$", markdown, re.M)
     if match:
-        return re.sub(r"[*`_]+", "", match.group(1)).strip()[:80]
-    return fallback
+        title = re.sub(r"[*`_]+", "", match.group(1)).strip()
+    else:
+        title = fallback
+    title = re.sub(r"\.(md|markdown|mdx)$", "", title, flags=re.I).strip()
+    return title[:80]
 
 
 def parse_summary(space_dir: Path) -> list[tuple[str, str, str]]:
@@ -105,6 +108,14 @@ def import_space(space: dict, created: dict) -> dict:
     _, cr = api("POST", f"/spaces/{space_id}/change-requests", {"subject": "Import HiPay demo content"})
     cr_id = cr["id"]
 
+    current_pages = content_tree(space_id, cr_id)
+    for batch in chunked(current_pages, 45):
+        api(
+            "POST",
+            f"/spaces/{space_id}/change-requests/{cr_id}/content",
+            {"changes": [{"operation": "delete_page", "page": page["id"]} for page in batch]},
+        )
+
     readme = (space_dir / "README.md").read_text(encoding="utf-8")
     entries = parse_summary(space_dir)
     groups = []
@@ -154,6 +165,7 @@ def import_space(space: dict, created: dict) -> dict:
     return {
         "space": space_id,
         "change_request": cr_id,
+        "deleted_pages": len(current_pages),
         "groups": len(groups),
         "children": len(child_changes),
         "batches": batches,

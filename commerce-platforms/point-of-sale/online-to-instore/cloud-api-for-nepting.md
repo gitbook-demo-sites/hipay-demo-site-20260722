@@ -14,9 +14,25 @@ Imported from the current HiPay WordPress developer portal for the demo migratio
 The Cloud API for Nepting is an HTTP REST API that forwards incoming payment requests to a POS payment terminal .
 
 Basically, when the Cloud API receives a payment request, it:
-1. contacts the payment terminal
-2. waits for the payment processing
-3. responds to the payment request initiator with th payment result information
+{% stepper %}
+{% step %}
+## Step 1
+
+contacts the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 2
+
+waits for the payment processing
+{% endstep %}
+
+{% step %}
+## Step 3
+
+responds to the payment request initiator with th payment result information
+{% endstep %}
+{% endstepper %}
 
 The Cloud API works synchronously.
 It means that it responds to the request initiator only after a payment response has been received from the payment terminal, or in case the payment terminal can't be joined.
@@ -31,19 +47,85 @@ The processing flow of a payment request depends on whether an authorization req
 
 WITH authorization request
 
-1. The POS cash register system sends a payment request to Cloud API
-2. Cloud API forwards the payment request to the payment terminal referenced in the payment request via its serial number and its manufacturer's name
-3. The payment terminal awakes and displays the payment screen (amount + currency)
-4. The customer performs the payment attempt and the payment information (card information) are sent to the Nepting payment gateway
-5. The Nepting payment gateway processes the payment attempt
-6. The Nepting payment gateway sends the authorization request to the acquirer
-7. The acquirer forwards the authorization request to the issuer
-8. The issuer sends the authorization response to the acquirer
-9. The acquirer forwards the authorization response to the Nepting payment gateway
-10. The Nepting payment gateway stores the transaction in its server database
-11. The Nepting payment gateway sends the payment response to the payment terminal
-12. The payment terminal sends the payment response to Cloud API
-13. Cloud API receives the payment response and forwards it to the POS cash register system
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS cash register system sends a payment request to Cloud API
+{% endstep %}
+
+{% step %}
+## Step 2
+
+Cloud API forwards the payment request to the payment terminal referenced in the payment request via its serial number and its manufacturer's name
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The payment terminal awakes and displays the payment screen (amount + currency)
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The customer performs the payment attempt and the payment information (card information) are sent to the Nepting payment gateway
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The Nepting payment gateway processes the payment attempt
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The Nepting payment gateway sends the authorization request to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 7
+
+The acquirer forwards the authorization request to the issuer
+{% endstep %}
+
+{% step %}
+## Step 8
+
+The issuer sends the authorization response to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 9
+
+The acquirer forwards the authorization response to the Nepting payment gateway
+{% endstep %}
+
+{% step %}
+## Step 10
+
+The Nepting payment gateway stores the transaction in its server database
+{% endstep %}
+
+{% step %}
+## Step 11
+
+The Nepting payment gateway sends the payment response to the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 12
+
+The payment terminal sends the payment response to Cloud API
+{% endstep %}
+
+{% step %}
+## Step 13
+
+Cloud API receives the payment response and forwards it to the POS cash register system
+{% endstep %}
+{% endstepper %}
 
 Step 2': a notification is automatically sent to the HiPay platform with all the order information provided in the payment request (customer basket, customer information, custom data).
 
@@ -56,15 +138,61 @@ NB2: To get more details about the server-to-server notifications, please consul
 
 WITHOUT authorization request
 
-1. The POS cash register system sends a payment request to Cloud API
-2. Cloud API forwards the payment request to the payment terminal referenced in the payment request via its serial number and its manufacturer's name
-3. The payment terminal awakes and displays the payment screen (amount + currency)
-4. The customer performs the payment attempt and the payment information (card information) are sent to the Nepting payment gateway
-5. The Nepting payment gateway processes the payment attempt
-6. The Nepting payment gateway stores the transaction in its server database
-7. The Nepting payment gateway sends the payment response to the payment terminal
-8. The payment terminal sends the payment response to Cloud API
-9. Cloud API receives the payment response and forwards it to the POS cash register system
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS cash register system sends a payment request to Cloud API
+{% endstep %}
+
+{% step %}
+## Step 2
+
+Cloud API forwards the payment request to the payment terminal referenced in the payment request via its serial number and its manufacturer's name
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The payment terminal awakes and displays the payment screen (amount + currency)
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The customer performs the payment attempt and the payment information (card information) are sent to the Nepting payment gateway
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The Nepting payment gateway processes the payment attempt
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The Nepting payment gateway stores the transaction in its server database
+{% endstep %}
+
+{% step %}
+## Step 7
+
+The Nepting payment gateway sends the payment response to the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 8
+
+The payment terminal sends the payment response to Cloud API
+{% endstep %}
+
+{% step %}
+## Step 9
+
+Cloud API receives the payment response and forwards it to the POS cash register system
+{% endstep %}
+{% endstepper %}
 
 Step 2': a notification is automatically sent to the HiPay platform with all the order information provided in the payment request (customer basket, customer information, custom data).
 

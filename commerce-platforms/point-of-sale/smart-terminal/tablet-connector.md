@@ -26,20 +26,91 @@ The processing flow of a payment request depends on whether an authorization req
 
 WITH authorization request
 
-1. The POS software creates a new instance of the RequestPayment class
-2. The POS software calls the execute method of the RequestPayment object
-3. The payment request is sent to the POS payment terminal device its IP address and listening port
-4. The payment terminal awakes and displays the payment screen (amount + currency)
-5. The customer performs the payment attempt and the payment information are sent to the Preludd payment gateway
-6. The Preludd payment gateway processes the payment attempt
-7. The Nepting payment gateway sends the authorization request to the acquirer
-8. The acquirer forwards the authorization request to the issuer
-9. The issuer sends the authorization response to the acquirer
-10. The acquirer forwards the authorization response to the Nepting payment gateway
-11. The Preludd payment gateway sends the payment response to the payment terminal
-12. The transaction is directly stored in the payment terminal
-13. The payment terminal sends the payment response
-14. The callback function of the POS software is triggered with the payment response
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS software creates a new instance of the RequestPayment class
+{% endstep %}
+
+{% step %}
+## Step 2
+
+The POS software calls the execute method of the RequestPayment object
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The payment request is sent to the POS payment terminal device its IP address and listening port
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The payment terminal awakes and displays the payment screen (amount + currency)
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The customer performs the payment attempt and the payment information are sent to the Preludd payment gateway
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The Preludd payment gateway processes the payment attempt
+{% endstep %}
+
+{% step %}
+## Step 7
+
+The Nepting payment gateway sends the authorization request to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 8
+
+The acquirer forwards the authorization request to the issuer
+{% endstep %}
+
+{% step %}
+## Step 9
+
+The issuer sends the authorization response to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 10
+
+The acquirer forwards the authorization response to the Nepting payment gateway
+{% endstep %}
+
+{% step %}
+## Step 11
+
+The Preludd payment gateway sends the payment response to the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 12
+
+The transaction is directly stored in the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 13
+
+The payment terminal sends the payment response
+{% endstep %}
+
+{% step %}
+## Step 14
+
+The callback function of the POS software is triggered with the payment response
+{% endstep %}
+{% endstepper %}
 
 Step 3': a notification is automatically sent to the HiPay platform with all the order information provided in the payment request (customer basket, customer information, custom data).
 
@@ -51,14 +122,55 @@ The status will be updated to Captured when the remote collection process will b
 
 WITHOUT authorization request
 
-1. The POS software creates a new instance of the RequestPayment class
-2. The POS software calls the execute method of the RequestPayment object
-3. The payment request is sent to the POS payment terminal device its IP address and listening port
-4. The payment terminal awakes and displays the payment screen (amount + currency)
-5. The customer performs the payment attempt
-6. The transaction is directly stored in the payment terminal
-7. The payment terminal sends the payment response
-8. The callback function of the POS software is triggered with the payment response
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS software creates a new instance of the RequestPayment class
+{% endstep %}
+
+{% step %}
+## Step 2
+
+The POS software calls the execute method of the RequestPayment object
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The payment request is sent to the POS payment terminal device its IP address and listening port
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The payment terminal awakes and displays the payment screen (amount + currency)
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The customer performs the payment attempt
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The transaction is directly stored in the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 7
+
+The payment terminal sends the payment response
+{% endstep %}
+
+{% step %}
+## Step 8
+
+The callback function of the POS software is triggered with the payment response
+{% endstep %}
+{% endstepper %}
 
 Step 3': a notification is automatically sent to the HiPay platform with all the order information provided in the payment request (customer basket, customer information, custom data).
 
@@ -68,14 +180,55 @@ The transactions will be created to the Captured state when the remote collectio
 
 ## Processing flow of a remote collection
 
-1. The POS payment terminal triggers the remote collection process to the Preludd payment gateway
-2. The Preludd payment gateway forwards the remote collection data to the acquirer
-3. The acquirer acknowledges the remote collection data
-4. The Preludd payment gateway sends the remote collection data to Hipay via a push notification
-5. The HiPay platform acknowledges the notification
-6. The HiPay platform creates or updates the transaction (in case an authorization notification was previously received)
-7. [Optional] The HiPay platform sends a server-to-server notification to the POS merchant Information System
-8. [Optional] The merchant Information System acknowledges
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS payment terminal triggers the remote collection process to the Preludd payment gateway
+{% endstep %}
+
+{% step %}
+## Step 2
+
+The Preludd payment gateway forwards the remote collection data to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The acquirer acknowledges the remote collection data
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The Preludd payment gateway sends the remote collection data to Hipay via a push notification
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The HiPay platform acknowledges the notification
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The HiPay platform creates or updates the transaction (in case an authorization notification was previously received)
+{% endstep %}
+
+{% step %}
+## Step 7
+
+[Optional] The HiPay platform sends a server-to-server notification to the POS merchant Information System
+{% endstep %}
+
+{% step %}
+## Step 8
+
+[Optional] The merchant Information System acknowledges
+{% endstep %}
+{% endstepper %}
 
 To get more details about the server-to-server notifications, please consult the dedicated page .
 

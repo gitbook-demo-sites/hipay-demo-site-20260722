@@ -60,21 +60,39 @@ If you do not have a HiPay Console acco unt or use HiPay Professional, please co
 
 ## Installation of the HiPay payment plugin
 
-The HiPay payment plugin for Shopware 6 is open-source and available on GitHub. Our GitHub repository is connected to Packagist so that you can include it in your project through Composer :
+The HiPay payment plugin for Shopware 6 is open-source and available on GitHub. The repository is connected to Packagist so that you can include it in your project through Composer.
 
-1. In your command-line tool, go to the root of your Shopware 6 application and run
+{% stepper %}
+{% step %}
+## Install the plugin from Composer
 
+In your command-line tool, go to the root of your Shopware 6 application and run:
+
+```bash
 composer require hipay/hipay-enterprise-shopware-6
-
 bin/console plugin:refresh
-
 bin/console plugin:install -activate hipay
+```
+{% endstep %}
 
-2. In your Shopware back end, go to Settings > System > Plugins.
+{% step %}
+## Open the plugin settings
 
-3. Find the HiPay payment plugin and switch on the Activate toggle button.
+In your Shopware back end, go to **Settings > System > Plugins**.
+{% endstep %}
 
-4. Configure your plugin and activate your payment methods.
+{% step %}
+## Activate HiPay
+
+Find the HiPay payment plugin and switch on the **Activate** toggle.
+{% endstep %}
+
+{% step %}
+## Configure payment methods
+
+Configure your plugin credentials and activate the payment methods you want to offer at checkout.
+{% endstep %}
+{% endstepper %}
 
 ## Configuration
 

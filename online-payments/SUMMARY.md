@@ -2,10 +2,10 @@
 
 * [Online Payments](README.md)
 
-## Bancomat Pay.Md
+## Bancomat Pay
 * [Bancomat Pay](bancomat-pay.md)
 
-## Bizum.Md
+## Bizum
 * [Bizum](bizum.md)
 
 ## Features
@@ -25,7 +25,7 @@
 * [Challenge](maintenance/challenge.md)
 * [Refund](maintenance/refund.md)
 
-## Overview.Md
+## Overview
 * [Online Payments - Overview](overview.md)
 
 ## Payment

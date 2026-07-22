@@ -1,5 +1,5 @@
 ---
-description: "A modern SaaS developer portal demo for HiPay."
+description: "A modern SaaS developer portal demo for HiPay with AI-assisted self-service."
 icon: house
 cover: "https://ik.imagekit.io/hipay/homepage_hero_a6ce98e81f_0Grsw-VSV.png?tr=w-1600,h-700"
 coverY: 0
@@ -22,31 +22,39 @@ layout:
 
 # HiPay Developer Documentation Hub
 
-Augmented payment documentation for online, in-store, marketplace, and agentic commerce teams.
+Augmented payment documentation for merchants, developers, and commerce teams.
 
 {% columns %}
-{% column width="56%" %}
-This first draft moves HiPay's self-hosted WordPress developer portal into a GitBook-style SaaS documentation hub. It keeps the current content architecture, adds clearer audience paths, and shows how OpenAPI, AI search, page feedback, and editorial review can reduce support tickets from stale or hard-to-find docs.
+{% column width="58%" %}
+Move from a maintenance-heavy WordPress portal to a branded GitBook experience where merchants can self-serve, developers can trust generated API references, and editors can keep fast-changing payment guidance current without engineering overhead.
 
 {% hint style="success" %}
-Demo focus: replace maintenance-heavy WordPress docs with a branded, searchable, API-aware GitBook experience that merchants and implementation teams can self-serve.
+Demo focus: reduce support tickets from stale documentation by putting AI search, OpenAPI rendering, page feedback, and structured authoring workflows in the same portal.
 {% endhint %}
 {% endcolumn %}
 
-{% column width="44%" %}
+{% column width="42%" %}
 ```mermaid
 flowchart TD
-    Merchant[Merchant team] --> Path{{Choose a path}}
-    Path --> Online[Online payments]
-    Path --> Store[Unified commerce]
-    Path --> Market[Marketplace]
-    Online --> API[OpenAPI reference]
-    Store --> API
-    Market --> API
-    API --> SelfServe[Self-service answers]
+    Visitor[Merchant or developer] --> AI[Ask HiPay AI]
+    AI --> Answer[Grounded answer]
+    Answer --> Docs[Relevant docs page]
+    Docs --> API[OpenAPI operation]
+    Docs --> Feedback[Page feedback]
+    Feedback --> Editor[Docs owner review]
 ```
 {% endcolumn %}
 {% endcolumns %}
+
+## Ask HiPay AI
+
+{% hint style="info" %}
+**What do you want to build?** Try questions like `Which integration path should I choose?`, `How do I verify webhook signatures?`, or `Where is the Hosted Page API reference?`
+{% endhint %}
+
+<table data-view="cards"><thead><tr><th width="48"></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
+<tr><td><i class="fa-sparkles"></i></td><td><strong>AI search for implementation answers</strong></td><td>A prominent assistant-style entry point helps merchants find integration, payment method, and troubleshooting answers without opening a support ticket.</td><td><a href="migration-plan.md">AI search demo</a></td></tr>
+</tbody></table>
 
 ## Choose your path
 

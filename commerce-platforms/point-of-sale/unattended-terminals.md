@@ -121,35 +121,103 @@ Automate the ECR connector launch
 
 You can automate the ECR connector launch from the computer who runs the ECR connector following the next steps:
 
-* Click on Start menu > Windows Administrative Tools > Task Scheduler.
-* Click on Action > Create Task
-* Once the Create Task screen appears, in the Name field, give the task name : Unattended ECR Connector.
-* Select the option Run whether user is logged on or not.
-* In the Configure for drop down menu, select Windows 10.
+{% stepper %}
+{% step %}
+## Open Task Scheduler
 
-6. Go to the Triggers tab and select New....
+Click **Start menu > Windows Administrative Tools > Task Scheduler**.
+{% endstep %}
 
-7. Select Daily Settings and let Recur every 1 days
+{% step %}
+## Create a task
 
-8. In advanced settings, enable Repeat task every and select in the drop down menu 5 minutes
+Click **Action > Create Task**.
+{% endstep %}
 
-9. Go to the Actions Tab and select New ....
+{% step %}
+## Name the task
 
-10. Select Browse... and find the program always-up (located on delivery files at the root directory) and click on the button Open to select this file to be scheduled for this task.
+When the **Create Task** screen appears, set the task name to `Unattended ECR Connector`.
+{% endstep %}
 
-11. Select OK.
+{% step %}
+## Set run behavior
 
-12. Go to the Conditions Tab.
+Select **Run whether user is logged on or not**.
+{% endstep %}
 
-13. Enable Wake the computer to run this task
+{% step %}
+## Choose Windows version
 
-14. Disable Stop if the computer switches to battery power
+In the **Configure for** dropdown, select **Windows 10**.
+{% endstep %}
 
-15. Then go to the General tab and Click on OK
+{% step %}
+## Create the trigger
 
-16. The Task Scheduler login screen will appear.
+Go to the **Triggers** tab and select **New**.
+{% endstep %}
 
-17. Enter your password to enable the program to start on your computer and click on Ok.
+{% step %}
+## Set the schedule
+
+Select **Daily Settings** and set **Recur every** to `1` day.
+{% endstep %}
+
+{% step %}
+## Repeat the task
+
+In advanced settings, enable **Repeat task every** and select `5 minutes`.
+{% endstep %}
+
+{% step %}
+## Create the action
+
+Go to the **Actions** tab and select **New**.
+{% endstep %}
+
+{% step %}
+## Select the program
+
+Select **Browse**, find `always-up` in the delivery files root directory, and click **Open**.
+{% endstep %}
+
+{% step %}
+## Confirm the action
+
+Select **OK**.
+{% endstep %}
+
+{% step %}
+## Open conditions
+
+Go to the **Conditions** tab.
+{% endstep %}
+
+{% step %}
+## Wake the computer
+
+Enable **Wake the computer to run this task**.
+{% endstep %}
+
+{% step %}
+## Allow battery mode
+
+Disable **Stop if the computer switches to battery power**.
+{% endstep %}
+
+{% step %}
+## Save the task
+
+Return to the **General** tab and click **OK**.
+{% endstep %}
+
+{% step %}
+## Authenticate
+
+When the Task Scheduler login screen appears, enter your password and click **OK**.
+{% endstep %}
+{% endstepper %}
 
 The new task Unattended ECR Connector is ready and will start in few minutes.
 

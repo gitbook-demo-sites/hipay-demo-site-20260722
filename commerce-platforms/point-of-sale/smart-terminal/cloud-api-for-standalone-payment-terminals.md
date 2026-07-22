@@ -14,9 +14,25 @@ Imported from the current HiPay WordPress developer portal for the demo migratio
 The Cloud API for standalone payment terminals is an HTTP REST API that forwards incoming payment requests to a standalone POS payment terminal via the ConcertV3 protocols .
 
 Basically, when the Cloud API receives a payment request, it:
-1. contacts the payment terminal
-2. waits for the payment processin
-3. responds to the payment request initiator with the payment result information
+{% stepper %}
+{% step %}
+## Step 1
+
+contacts the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 2
+
+waits for the payment processin
+{% endstep %}
+
+{% step %}
+## Step 3
+
+responds to the payment request initiator with the payment result information
+{% endstep %}
+{% endstepper %}
 
 The Cloud API works synchronously.
 It means that it responds to the request initiator only after a payment response has been received from the payment terminal.
@@ -31,19 +47,85 @@ The processing flow of a payment request depends on whether an authorization req
 
 WITH authorization request
 
-1. The POS cash register system sends a payment request to Cloud API
-2. Cloud API forwards the payment request to the payment terminal referenced in the payment request via its IP address and listening port
-3. The payment terminal awakes and displays the payment screen (amount + currency)
-4. The customer performs the payment attempt and the payment information are sent to the Preludd payment gateway
-5. The Preludd payment gateway processes the payment attempt
-6. The Nepting payment gateway sends the authorization request to the acquirer
-7. The acquirer forwards the authorization request to the issuer
-8. The issuer sends the authorization response to the acquirer
-9. The acquirer forwards the authorization response to the Nepting payment gateway
-10. The Preludd payment gateway sends the payment response to the payment terminal
-11. The transaction is directly stored in the payment terminal
-12. The payment terminal sends the payment response to Cloud API
-13. Cloud API receives the payment response and forwards it to the POS cash register system
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS cash register system sends a payment request to Cloud API
+{% endstep %}
+
+{% step %}
+## Step 2
+
+Cloud API forwards the payment request to the payment terminal referenced in the payment request via its IP address and listening port
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The payment terminal awakes and displays the payment screen (amount + currency)
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The customer performs the payment attempt and the payment information are sent to the Preludd payment gateway
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The Preludd payment gateway processes the payment attempt
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The Nepting payment gateway sends the authorization request to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 7
+
+The acquirer forwards the authorization request to the issuer
+{% endstep %}
+
+{% step %}
+## Step 8
+
+The issuer sends the authorization response to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 9
+
+The acquirer forwards the authorization response to the Nepting payment gateway
+{% endstep %}
+
+{% step %}
+## Step 10
+
+The Preludd payment gateway sends the payment response to the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 11
+
+The transaction is directly stored in the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 12
+
+The payment terminal sends the payment response to Cloud API
+{% endstep %}
+
+{% step %}
+## Step 13
+
+Cloud API receives the payment response and forwards it to the POS cash register system
+{% endstep %}
+{% endstepper %}
 
 Step 2': a notification is automatically sent to the HiPay platform with all the order information provided in the payment request (customer basket, customer information, custom data).
 
@@ -57,13 +139,49 @@ The status will be updated to Captured when the remote collection process will b
 
 WITHOUT authorization request
 
-1. The POS cash register system sends a payment request to Cloud API
-2. Cloud API forwards the payment request to the payment terminal referenced in the payment request via its IP address and listening port
-3. The payment terminal awakes and displays the payment screen (amount + currency)
-4. The customer performs the payment attempt
-5. The transaction is directly stored in the payment terminal
-6. The payment terminal sends the payment response to Cloud API
-7. Cloud API receives the payment response and forwards it to the POS cash register system
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS cash register system sends a payment request to Cloud API
+{% endstep %}
+
+{% step %}
+## Step 2
+
+Cloud API forwards the payment request to the payment terminal referenced in the payment request via its IP address and listening port
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The payment terminal awakes and displays the payment screen (amount + currency)
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The customer performs the payment attempt
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The transaction is directly stored in the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The payment terminal sends the payment response to Cloud API
+{% endstep %}
+
+{% step %}
+## Step 7
+
+Cloud API receives the payment response and forwards it to the POS cash register system
+{% endstep %}
+{% endstepper %}
 
 Step 2': a notification is automatically sent to the HiPay platform with all the order information provided in the payment request (customer basket, customer information, custom data).
 
@@ -73,14 +191,55 @@ The transactions will be created to the Captured state when the remote collectio
 
 ## Processing flow of a remote collection
 
-1. The POS payment terminal triggers the remote collection process to the Preludd payment gateway
-2. The Preludd payment gateway forwards the remote collection data to the acquirer
-3. The acquirer acknowledges the remote collection data
-4. The Preludd payment gateway sends the remote collection data to Hipay via a push notification
-5. The HiPay platform acknowledges the notification
-6. The HiPay platform creates or updates the transaction (in case an authorization notification was previously received)
-7. [Optional] The HiPay platform sends a server-to-server notification to the POS merchant Information System
-8. [Optional] The merchant Information System acknowledges
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS payment terminal triggers the remote collection process to the Preludd payment gateway
+{% endstep %}
+
+{% step %}
+## Step 2
+
+The Preludd payment gateway forwards the remote collection data to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The acquirer acknowledges the remote collection data
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The Preludd payment gateway sends the remote collection data to Hipay via a push notification
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The HiPay platform acknowledges the notification
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The HiPay platform creates or updates the transaction (in case an authorization notification was previously received)
+{% endstep %}
+
+{% step %}
+## Step 7
+
+[Optional] The HiPay platform sends a server-to-server notification to the POS merchant Information System
+{% endstep %}
+
+{% step %}
+## Step 8
+
+[Optional] The merchant Information System acknowledges
+{% endstep %}
+{% endstepper %}
 
 To get more details about the server-to-server notifications, please consult the dedicated page .
 

@@ -18,9 +18,25 @@ It is also intended for scenarios where the sales assistants in the store offer 
 Contrary to the Cloud API, Internet access is not required (but a network access is) to join the POS payment terminal, because there will be no intermediate between the request initiator and the POS payment terminal.
 
 Basically, when the Local API receives a payment request, it:
-1. awakes the payment terminal
-2. waits for the payment processing
-3. responds to the payment request initiator with the payment result information
+{% stepper %}
+{% step %}
+## Step 1
+
+awakes the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 2
+
+waits for the payment processing
+{% endstep %}
+
+{% step %}
+## Step 3
+
+responds to the payment request initiator with the payment result information
+{% endstep %}
+{% endstepper %}
 
 ## Processing flow of a payment request
 
@@ -28,17 +44,73 @@ The processing flow of a payment request depends on whether an authorization req
 
 WITH authorization request
 
-1. The POS cash register system sends a payment request to Local API
-2. Local API awakes the payment terminal and displays the payment screen (amount + currency)
-3. The customer performs the payment attempt and the payment information (card information) are sent to the Nepting payment gateway
-4. The Nepting payment gateway processes the payment attempt
-5. The Nepting payment gateway sends the authorization request to the acquirer
-6. The acquirer forwards the authorization request to the issuer
-7. The issuer sends the authorization response to the acquirer
-8. The acquirer forwards the authorization response to the Nepting payment gateway
-9. The Nepting payment gateway stores the transaction in its server database
-10. The Nepting payment gateway sends the payment response to the payment terminal
-11. Local API receives the payment response and forwards it to the payment request initiator
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS cash register system sends a payment request to Local API
+{% endstep %}
+
+{% step %}
+## Step 2
+
+Local API awakes the payment terminal and displays the payment screen (amount + currency)
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The customer performs the payment attempt and the payment information (card information) are sent to the Nepting payment gateway
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The Nepting payment gateway processes the payment attempt
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The Nepting payment gateway sends the authorization request to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The acquirer forwards the authorization request to the issuer
+{% endstep %}
+
+{% step %}
+## Step 7
+
+The issuer sends the authorization response to the acquirer
+{% endstep %}
+
+{% step %}
+## Step 8
+
+The acquirer forwards the authorization response to the Nepting payment gateway
+{% endstep %}
+
+{% step %}
+## Step 9
+
+The Nepting payment gateway stores the transaction in its server database
+{% endstep %}
+
+{% step %}
+## Step 10
+
+The Nepting payment gateway sends the payment response to the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 11
+
+Local API receives the payment response and forwards it to the payment request initiator
+{% endstep %}
+{% endstepper %}
 
 Step 2': a notification is automatically sent to the HiPay platform with all the order information provided in the payment request (customer basket, customer information, custom data).
 
@@ -51,13 +123,49 @@ NB2: To get more details about the server-to-server notifications, please consul
 
 WITHOUT authorization request
 
-1. The POS cash register system sends a payment request to Local API
-2. Local API awakes the payment terminal and displays the payment screen (amount + currency)
-3. The customer performs the payment attempt and the payment information (card information) are sent to the Nepting payment gateway
-4. The Nepting payment gateway processes the payment attempt
-5. The Nepting payment gateway stores the transaction in its server database
-6. The Nepting payment gateway sends the payment response to the payment terminal
-7. Local API receives the payment response and forwards it to the payment request initiator
+{% stepper %}
+{% step %}
+## Step 1
+
+The POS cash register system sends a payment request to Local API
+{% endstep %}
+
+{% step %}
+## Step 2
+
+Local API awakes the payment terminal and displays the payment screen (amount + currency)
+{% endstep %}
+
+{% step %}
+## Step 3
+
+The customer performs the payment attempt and the payment information (card information) are sent to the Nepting payment gateway
+{% endstep %}
+
+{% step %}
+## Step 4
+
+The Nepting payment gateway processes the payment attempt
+{% endstep %}
+
+{% step %}
+## Step 5
+
+The Nepting payment gateway stores the transaction in its server database
+{% endstep %}
+
+{% step %}
+## Step 6
+
+The Nepting payment gateway sends the payment response to the payment terminal
+{% endstep %}
+
+{% step %}
+## Step 7
+
+Local API receives the payment response and forwards it to the payment request initiator
+{% endstep %}
+{% endstepper %}
 
 Once the payment attempt processing is done, an Instant Payment Notification (IPN) is sent by the Nepting payment gateway to HiPay.
 When the HiPay platform receives an IPN from Nepting, a process is triggered to create the transaction on HiPay side.
